@@ -19,6 +19,7 @@ namespace NumbersGame
                 difficulty = ReadIntFromConsole();
 
                 //Generates a secret random number and take input from user.
+                //Gives diffrent responses in case 1 and near or far responses in case 2 & 3.
                 //If guesscount is more then 4 or same as random number ask to play again.
                 switch (difficulty)
                 {
